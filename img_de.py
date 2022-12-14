@@ -9,6 +9,10 @@ img = cv2.imread('tiger-jpg.jpg',1)
 red = img[:,:,2]
 green = img[:,:,1]
 blue  = img[:,:,0]
+print(red)
+print(green)
+print(blue)
+cv2.waitKey(0)
 #test red image
 #cv2.imshow('original',red)
 r_lst ='' #luu chuoi hexa cua anh
